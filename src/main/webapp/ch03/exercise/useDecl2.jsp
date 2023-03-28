@@ -25,7 +25,6 @@
 	int addResult = add(value1, value2);
 	int subtractResult = subtract(value1, value2);
 %>
-
 <%= value1 %> + <%= value2 %> = <%= addResult %>
 <br>
 <%= value1 %> - <%= value2 %> = <%= subtractResult %>
