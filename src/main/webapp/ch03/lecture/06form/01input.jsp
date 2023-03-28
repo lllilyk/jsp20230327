@@ -36,9 +36,6 @@
 
 		<!-- 그냥 버튼 -->
 		<button type="button" >그냥 버튼 </button>
-
-
-
 	</form>
 </body>
 </html>
