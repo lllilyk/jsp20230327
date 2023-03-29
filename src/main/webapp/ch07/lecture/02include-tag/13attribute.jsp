@@ -8,7 +8,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<%
+	<% /* java.util.list인터페이스를 값으로 넣음 */
 	request.setAttribute("movies", List.of("avatar", "slamdunk", "avengers"));
 	%>
 	
