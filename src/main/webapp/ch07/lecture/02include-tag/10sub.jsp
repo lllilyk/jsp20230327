@@ -5,5 +5,5 @@
     Object o = request.getAttribute("myAttr");
     %>
     <h1><%= System.identityHashCode(o) %></h1>
-    
-    
+   
+   
