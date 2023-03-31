@@ -9,6 +9,5 @@
 </head>
 <body>
 	<h1>05to.jsp 입니다.</h1>
-	
 </body>
 </html>
