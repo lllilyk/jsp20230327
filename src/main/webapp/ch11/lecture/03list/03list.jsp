@@ -24,7 +24,5 @@
 	<p>${ players["1"] }</p>
 	<p>${ players['2'] }</p>
 	<p>${ players['3'] }</p>
-	
-	
 </body>
 </html>

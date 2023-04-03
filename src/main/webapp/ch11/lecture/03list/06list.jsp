@@ -9,16 +9,15 @@
 </head>
 <body>
 	<%
-	List<String> list = List.of("태웅", "백호", "태섭", "대만", "치수");
-	pageContext.setAttribute("players", list);
-	
+	List<String> list = List.of("현철", "현필", "명헌", "우성", "동오");
+	pageContext.setAttribute("sannoh", list);
 	%>
 	
-	<p>${players[0] }</p>
-	<p>${players[1] }</p>
-	<p>${players[2] }</p>
-	<p>${players[3] }</p>
-	<p>${players[4] }</p>
+	<p>${sannoh[0] }</p>
+	<p>${sannoh[1] }</p>
+	<p>${sannoh[2] }</p>
+	<p>${sannoh[3] }</p>
+	<p>${sannoh[4] }</p>
 	
 	<hr />
 	
@@ -26,9 +25,10 @@
 	for(int i = 0; i < 5; i++){
 		pageContext.setAttribute("i", i);
 	%>
-		<p>${players[i] }</p>
+		<p>${sannoh[i] }</p>
 	<%
 	}
 	%>	
+	
 </body>
 </html>

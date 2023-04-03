@@ -21,7 +21,7 @@ public class Bean03 {
 	
 	//필드에는 없지만 FullName이라는 property 생성
 	public String getFullName() {
-		return firstName + "" + lastName;
+		return firstName + " " + lastName;
 	}
 	
 	public String getFirstName() {
