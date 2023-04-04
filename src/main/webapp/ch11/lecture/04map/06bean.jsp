@@ -19,6 +19,7 @@
 	b1.setAddress("신촌");
 	b2.setAddress("강남");
 	
+	
 	Map<String, Bean04> map = new HashMap<>();
 	map.put("player", b1);
 	map.put("manager", b2);

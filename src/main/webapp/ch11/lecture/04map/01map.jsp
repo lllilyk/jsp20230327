@@ -22,7 +22,5 @@
 	<p>${map1["key1"] }</p> 
 	<p>${map1["key2"] }</p> 
 	
-	
-	
 </body>
 </html>
