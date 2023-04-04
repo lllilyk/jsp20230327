@@ -31,7 +31,5 @@ pageContext.setAttribute("people", people);
 	<p>${people.person1.fullName }</p> <!-- son heungmin -->
 	<p>${people.person2.fullName }</p> <!-- park jisung -->
 	
-	
-	
 </body>
 </html>

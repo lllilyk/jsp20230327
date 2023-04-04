@@ -8,13 +8,13 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<!-- ?name=son&position=center&position=left&position=right -->
-	<h1>13번 파일</h1>
 	
-	<p>${param.name }</p>
-	<p>${paramValues.position[0] }</p>
-	<p>${paramValues.position[1] }</p>
-	<p>${paramValues.position[2] }</p>
+	<p>+ : ${param.numA + param.numB }</p>
+	<p>- : ${param.numA - param.numB }</p>
+	<p>* : ${param.numA * param.numB }</p>
+ 	<p>/ : ${param.numA / param.numB }</p>
+	<p>% : ${param.numA % param.numB }</p>
+	
 	
 </body>
 </html>

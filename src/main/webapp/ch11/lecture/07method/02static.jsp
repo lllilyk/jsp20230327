@@ -1,6 +1,8 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <%@ page import="java.util.*"%>
+<%@ page import="com.study.ch11.MyUtil" %>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -8,13 +10,9 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<!-- ?name=son&position=center&position=left&position=right -->
-	<h1>13번 파일</h1>
-	
-	<p>${param.name }</p>
-	<p>${paramValues.position[0] }</p>
-	<p>${paramValues.position[1] }</p>
-	<p>${paramValues.position[2] }</p>
+
+	<p>직접 만든 static method 호출</p>
+	<p>${MyUtil.method1() }</p>
 	
 </body>
 </html>

@@ -8,13 +8,10 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<!-- ?name=son&position=center&position=left&position=right -->
-	<h1>13번 파일</h1>
-	
-	<p>${param.name }</p>
-	<p>${paramValues.position[0] }</p>
-	<p>${paramValues.position[1] }</p>
-	<p>${paramValues.position[2] }</p>
-	
+	<form action="07process.jsp">
+		수 1 : <input type="text" name = "nums" /> <br />
+		수 2 : <input type="text" name = "nums" /> <br />
+		<input type="submit" value = "전송" />
+	</form>
 </body>
 </html>

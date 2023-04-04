@@ -8,13 +8,9 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<!-- ?name=son&position=center&position=left&position=right -->
-	<h1>13번 파일</h1>
-	
-	<p>${param.name }</p>
-	<p>${paramValues.position[0] }</p>
-	<p>${paramValues.position[1] }</p>
-	<p>${paramValues.position[2] }</p>
+	<h1>스태틱 메소드 사용</h1>
+	<p><%= Math.random()%></p>
+	<p>${Math.random() }</p>
 	
 </body>
 </html>

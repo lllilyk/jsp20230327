@@ -8,13 +8,11 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<!-- ?name=son&position=center&position=left&position=right -->
-	<h1>13번 파일</h1>
+	<h3>not</h3>
+	<p>${! false }</p> <!-- true -->
+	<p>${! true }</p> <!-- false -->
 	
-	<p>${param.name }</p>
-	<p>${paramValues.position[0] }</p>
-	<p>${paramValues.position[1] }</p>
-	<p>${paramValues.position[2] }</p>
-	
+	<p>${not false }</p> <!-- true -->
+	<p>${not true }</p> <!-- false -->
 </body>
 </html>

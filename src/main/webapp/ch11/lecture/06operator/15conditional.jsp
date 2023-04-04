@@ -8,13 +8,13 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<!-- ?name=son&position=center&position=left&position=right -->
-	<h1>13번 파일</h1>
+	<h1>조건 연산(삼항 연산)</h1>
+	<%
+	pageContext.setAttribute("a", 3);
+	pageContext.setAttribute("b", 5);
+	%>
 	
-	<p>${param.name }</p>
-	<p>${paramValues.position[0] }</p>
-	<p>${paramValues.position[1] }</p>
-	<p>${paramValues.position[2] }</p>
-	
+	<p>${a < b ? '작다' : '크다'}</p>
+
 </body>
 </html>

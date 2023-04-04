@@ -8,13 +8,12 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<!-- ?name=son&position=center&position=left&position=right -->
-	<h1>13번 파일</h1>
 	
-	<p>${param.name }</p>
-	<p>${paramValues.position[0] }</p>
-	<p>${paramValues.position[1] }</p>
-	<p>${paramValues.position[2] }</p>
+	<!-- 6번 파일에 form 요소 작성 -->
+
+	<h1>연산 결과</h1>
+	<p>${paramValues.nums[0] } + ${paramValues.nums[1] }
+	= ${paramValues.nums[0] + paramValues.nums[1] }</p>
 	
 </body>
 </html>
