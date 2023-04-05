@@ -19,6 +19,5 @@
 	<p>${requestScope["my request attr"] }</p>
 	<!-- <p>${["my request attr"] }</p> --> <!-- 문법오류 -->
 	
-	
 </body>
 </html>

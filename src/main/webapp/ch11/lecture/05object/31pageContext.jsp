@@ -21,6 +21,5 @@
 	<p>servletConfig : ${pageContext.servletConfig }</p>
 	<p>servletContext : ${pageContext.servletContext }</p>
 	
-	
 </body>
 </html>
