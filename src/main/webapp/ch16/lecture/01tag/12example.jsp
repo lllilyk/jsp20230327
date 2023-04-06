@@ -2,7 +2,7 @@
     pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %> 
 <%@ taglib prefix="d" tagdir="/WEB-INF/tags" %>
-<%@ page import="java.util.*"%>
+<%@ page import="java.util.*" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -13,23 +13,8 @@
 </head>
 <body>
 	
-	<d:mytag03>
-		<p>뿅</p>
-	</d:mytag03>
+	<d:mytag12 begin="1" end="10" active="${param.page }"></d:mytag12>
 	
-	<hr />
-	
-	<d:mytag03>
-		<p>삐뇽</p>
-	</d:mytag03>
-	
-	<hr />
-	
-	<!-- 태그 안에서도 jstl 사용 가능 -->
-	<d:mytag04>
-		<p>베시</p>
-	</d:mytag04>
-	
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </body>
 </html>
