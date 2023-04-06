@@ -13,13 +13,13 @@
 <body>
 	
 	<!-- null값을 넣어도 삭제되고 c:remove태그를 사용해도 삭제되지만 이왕이면 c:remove태그 이용 -->
-	<c:set var="attr1" value="value1" />
-	<c:set var="attr2" value="value2" />
+	<c:set var="attr1" value="ppyong" />
+	<c:set var="attr2" value="ppinyong" />
 	
 	<p>삭제전: ${attr1 }</p>
 	<p>삭제전: ${attr2 }</p>
 	
-	<c:set var="attr1" value="${alkdjflaj }" scope="page" />
+	<c:set var="attr1" value="${besi }" scope="page" />
 	<c:remove var="attr2" scope="page"/>
 	<p>삭제후: ${attr1 }</p>
 	<p>삭제후: ${attr2 }</p>

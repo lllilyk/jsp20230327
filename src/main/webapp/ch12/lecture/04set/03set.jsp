@@ -12,7 +12,7 @@
 </head>
 <body>
 	<!-- 코드 작성 -->
-	<!-- scope를 지정하지 않으면 page를 기본값으로 사용하므로 손흥민은 scope영역을 지정할 필요가 없음 -->
+	<!-- scope를 지정하지 않으면 page를 기본값으로 사용하므로 최동오는 scope영역을 지정할 필요가 없음 -->
 	<c:set var="name1" value="최동오" scope="page" />
 	<c:set var="name2" value="정우성" scope="request" />
 	<c:set var="name3" value="송태섭" scope="session" />

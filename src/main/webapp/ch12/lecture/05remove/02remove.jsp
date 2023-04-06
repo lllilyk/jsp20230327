@@ -13,10 +13,10 @@
 <body>
 	<p>remove 태그 사용시 scope를 지정하지 않으면 모든 영역에서 삭제</p>
 	
-	<c:set var="attr1" value="value1" scope="page" />
-	<c:set var="attr1" value="value2" scope="request" />
-	<c:set var="attr1" value="value3" scope="session" />
-	<c:set var="attr1" value="value4" scope="application" />
+	<c:set var="attr1" value="명헌" scope="page" />
+	<c:set var="attr1" value="동오" scope="request" />
+	<c:set var="attr1" value="낙수" scope="session" />
+	<c:set var="attr1" value="현철" scope="application" />
 	
 	<div>
 		<p>삭제전</p>
@@ -28,7 +28,6 @@
 	
 	<hr />
 	<c:remove var="attr1" scope="session" />
-	<!-- session영역의 attr1만 삭제됨 -->
 	<div>
 		<p>삭제후</p>
 		<p>${pageScope.attr1 }</p>

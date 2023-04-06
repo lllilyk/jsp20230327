@@ -20,7 +20,7 @@
 	<p>${pageScope.sn[0]}   
 	
 	<%-- <%
-	request.setAttribute("list", pageContext.getAttribute("list"));
+	request.setAttribute("list", pageContext.getAttribute("sannoh"));
 	%> --%>
 	<c:set var="sh" value="${pageScope.sn }" scope="request" />
 	
