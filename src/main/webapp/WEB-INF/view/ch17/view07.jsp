@@ -12,8 +12,8 @@
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
 </head>
 <body>
-	<!-- Servlet10에서 실행시켜야 됨
-	그러면 Servlet10 > view07 > Servlet11까지 연결되어서 동작함-->
+	<!-- Servlet09에서 실행시켜야 됨
+	그러면 Servlet09 > view07 > Servlet11까지 연결되어서 동작함-->
 	
 	<div>
 		<c:url value="/lec/sample10" var="addLink"></c:url>
@@ -38,6 +38,13 @@
 		<input type="submit" value="수정" />
 	</form>
 	
+	<!-- 삭제 폼 -->
+	<c:url var="deleteUrl" value="/lec/sample12" />
+	<form action="${deleteUrl }" method="post">
+		<input type="hidden" name="index" id="input3" />
+		<input type="submit" value="삭제" />
+	</form>
+	
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js" integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 	
@@ -47,6 +54,7 @@
 		const index = $("li").index(this);
 		$("#input1").val(name);
 		$("#input2").val(index);
+		$("#input3").val(index);
 	})	
 	</script>
 
